@@ -1,0 +1,55 @@
+Recap:
+1. Signup aws
+2. Login
+3. EC2 - IAAS 
+Elastic Cloud Compute - EC2
+Virtual Server
+Ubuntu
+
+Connect -
+aws console
+putty - ssh - 22
+
+http - 80
+https - 443
+S3 - Simple Storage Service
+RDS - Relational Database Service - 
+PAAS - Platform AS A Service
+
+Client - SQL Workbench
+
+Agenda
+1. Install MySQL workbench community edition
+2. Connect to RDS using MySQL workbench
+3. Python flask program with database
+
+download MySQL workbench community edition
+https://dev.mysql.com/downloads/workbench/
+
+python flask project
+flask is python's micro web library
+
+1. create a folder pythonflask
+2. open pythonflask folder in visual studio code
+
+3. python --version
+
+4. create Calculator.py
+5. run 
+python Calculator.py
+flask is a library of python
+python -m venv venv
+
+pip install flask
+app.py
+
+
+
+
+
+
+
+
+
+
+

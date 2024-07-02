@@ -1,0 +1,55 @@
+Agenda:
+1. Version Control
+git and GitHub
+2. git commands
+3. Deploy static website on GitHub
+
+practicals
+1. search for git in 
+windows
+if you find gitbash..means
+git is already installed
+if not
+
+download git for windows and install
+
+2. create an account in GitHub.com
+https://github.com/
+sign up
+
+3. Create a new repository 
+and copy the code
+
+echo "# sbcloudvap2024" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/raghuprasadks/sbcloudvap2024.git
+git push -u origin main
+
+git commands for every
+new repository
+1. git init
+2. git add index.html
+3. git commit -m "first version"
+4. git branch -M main
+5. git remote add origin https://github.com/raghuprasadks/sbcloudvap2024.git
+6.git push -u origin main
+
+git command for every change
+in the program file
+
+1. git status
+2. git add .
+3. git commit -m "updated index.html"
+4. git push
+
+
+
+
+
+
+
+
+

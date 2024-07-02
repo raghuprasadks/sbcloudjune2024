@@ -1,0 +1,99 @@
+Agenda:
+1. Create MySQL database instance using aws
+Login - https://aws.amazon.com/
+Search RDS
+click on DBInstance
+Create database
+Easy create
+MySQL
+Free tier
+database name - sbdemodb
+user name - admin
+password - self managed
+password - admin1234
+
+select database instance and click modify
+Additional Configuration
+Publicly accessible
+Apply immediately
+click on Modify Dbinstance
+
+click on db instance
+select the end point
+
+sbdemodb.cdtqd6jgia7i.ap-south-1.rds.amazonaws.com
+
+
+Assignment:
+ Use aws database to complete following tasks
+
+1. create product table having following fields
+
+id - int primary key not null auto increment
+name - varchar(100) not null
+supplier - varchar(100) not null
+price - int
+
+CREATE TABLE `sbdemodb`.`product` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(100) NOT NULL,
+  `supplier` VARCHAR(100) NOT NULL,
+  `price` INT NOT NULL,
+  PRIMARY KEY (`id`));
+
+sample data
+name - smart phone
+supplier - apple
+price - 100000
+2. Insert five records to product table
+insert into product(name,supplier,price) values('smart phone','apple',100000);
+insert into product(name,supplier,price) values('smart phone-ng','apple',120000);
+insert into product(name,supplier,price) values('smart phone-nk','nokia',60000);
+insert into product(name,supplier,price) values('smart phone-vivo','vivo',80000);
+insert into product(name,supplier,price) values('smart phone-jio','jio',50000);
+3. update product table by changing price
+by 150 % of original price
+update product set price = price*1.5 where id =1;
+4. select all records from apple supplier
+select * from product where supplier ='apple'
+5. delete record of nokia supplier
+delete from product where supplier ='nokia';
+delete from product where id = 3;
+
+student table
+id - int pk not null auto increment
+name - varchar(100)
+course - varchar(100)
+sem - int
+insert  atleast 5 records
+id - 1(auto increment)
+name - roy
+course - bca
+sem -4
+
+result table
+resultid - int pk not null auto increment
+result - varchar(100)
+studentid - int - foreign key refers to student id column
+
+insert  atleast 5 records
+
+result - Ist class
+studentid - 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Configure MySQL database to facilitate connection 
+with MySQL client
+3. Connect to MySQL database using workbench
+4. Create a database,table and SQL

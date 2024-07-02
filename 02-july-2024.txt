@@ -1,0 +1,20 @@
+Agenda:
+
+Recap:
+1. AWS - RDS
+2. Created database instance - done
+3. Connected using MySQL workbench
+4. Created database
+5. Created table and SQL CRUD
+
+python flask crud application
+1. create pythonflaskcrud folder - done
+2. open this folder using visual studio code
+3. create virtual environment
+view - open terminal
+python -m venv venv
+4. activate virtual environment
+.\venv\Scripts\activate
+5. Install flask and pymysql libraries
+pip install flask pymysql
+
