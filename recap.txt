@@ -1,0 +1,47 @@
+Recap
+
+Cloud Computing
+
+Deployment model
+public,private,hybrid
+Service model
+IAAS - Infrastructure as a service
+EC2
+PAAS - Platform AS a service
+RDS
+
+SAAS - Software AS a service
+gmail,google drive,netflix
+
+git commands
+git init
+git clone 
+git pull
+git add .
+git commit 
+git push
+
+aws
+s3 - static website
+visual studio code liveserver
+nginx - run website
+
+GitHub pages - link
+CI/CD
+EC2 - virtual server
+installed software
+deployed application on EC2
+connected to EC2 - putty,mobaxterm,ssh
+
+RDS - Database instance
+SQL
+Python with SQL
+End to end python with flask
+CRUD
+
+
+
+github
+
+
+ 
