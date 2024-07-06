@@ -28,3 +28,26 @@ Technology stack
 flask,pymysql
 jinga
 CRUD
+
+search kaushalya tech
+
+Steps for full stack application development
+search kaushalya tech
+git
+
+1. create flaskfullstack folder
+2. open folder from visual studio code
+3. create virtual environment
+python -m venv venv
+4. activate virtual environment
+\venv\Scripts\active
+5. create app.py inside flaskfullstack
+copy and paste from git
+6. create templates folder
+7. copy all html files from the git
+paste to templates folder
+8. in terminal install libraries
+pip install flask pymysql
+9. python app.py to run the application
+10. open http://127.0.0.1:5000
+to view the application
