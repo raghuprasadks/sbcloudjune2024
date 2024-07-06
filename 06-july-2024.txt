@@ -1,0 +1,30 @@
+Agenda:
+1. Full stack end to end programing
+using python flask with AWS RDS
+2. Recap of the workshop
+3. Feedback
+4. MCQ Test
+
+Step 1 - Create database instance in AWS
+sbdemoinstance.cdtqd6jgia7i.ap-south-1.rds.amazonaws.com
+
+Step 2 - Connect to workbench and create new schema
+
+CREATE SCHEMA `sbdbdemo` ;
+
+Step 3 - create a table
+
+CREATE TABLE `sbdbdemo`.`productnew` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(100) NOT NULL,
+  `supplier` VARCHAR(100) NOT NULL,
+  `price` INT NOT NULL,
+  PRIMARY KEY (`id`));
+
+Technology stack
+1. AWS RDS - MySQL
+2. Visual Studio code
+3. Python
+flask,pymysql
+jinga
+CRUD
